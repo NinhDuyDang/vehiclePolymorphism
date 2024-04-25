@@ -1,10 +1,10 @@
-package Tau;
+package train;
 
-import PhuongTien.Phuongtien;
+import vehicle.Vehicle;
 
 import java.util.Scanner;
 
-public class TauHoa extends Phuongtien {
+public class Train extends Vehicle {
     private String Sotoa;
     @Override
     public void input() {

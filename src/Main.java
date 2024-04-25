@@ -1,9 +1,10 @@
-import Oto.Oto;
-import Tau.TauHoa;
+import car.Car;
+import train.Train;
 
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
 
 
@@ -38,12 +39,12 @@ public class Main {
         System.out.print("nhap so o to :");
         int numOto = scanner.nextInt();
         scanner.nextLine();
-        Oto[] oto = new Oto[numOto];
+        Car[] oto = new Car[numOto];
         for (int i = 0; i < numOto; i++) {
-            oto[i] = new Oto();
+            oto[i] = new Car();
             oto[i].input();
         }
-        for (Oto otos : oto) {
+        for (Car otos : oto) {
             otos.info();
         }
     }
@@ -53,12 +54,12 @@ public class Main {
         System.out.println("nhap so tau");
         int numTau = scanner.nextInt();
         scanner.nextLine();
-        TauHoa[] tauhoa = new TauHoa[numTau];
+        Train[] tauhoa = new Train[numTau];
         for (int i= 0; i < numTau; i++){
-            tauhoa[i] = new TauHoa();
+            tauhoa[i] = new Train();
             tauhoa[i].input();
         }
-        for (TauHoa tauHoas : tauhoa){
+        for (Train tauHoas : tauhoa){
             tauHoas.info();
         }
     }

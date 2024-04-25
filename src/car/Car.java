@@ -1,10 +1,10 @@
-package Oto;
+package car;
 
-import PhuongTien.Phuongtien;
+import vehicle.Vehicle;
 
 import java.util.Scanner;
 
-public class Oto extends Phuongtien {
+public class Car extends Vehicle {
     private String loaixe;
 @Override
 public void input() {

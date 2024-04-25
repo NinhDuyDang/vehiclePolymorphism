@@ -1,8 +1,9 @@
-package PhuongTien;
+package vehicle;
 
-public  abstract class Phuongtien {
+public  abstract class Vehicle {
 protected String soghe;
 protected  String giave;
+
 
 public abstract void input();
 
